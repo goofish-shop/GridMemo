@@ -3,12 +3,60 @@ module.exports = {
     // theme: "@vuepress/theme-blog",
     base: "/GridMemo/",
     plugins: [
+        '@vuepress/active-header-links',
+        {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor'
+        },
+        
     ],
     themeConfig: {
-        repo: 'https://github.com/goofish-shop/vuepress',
+        logo: '/GridMemo/logo.png',
+        nextLinks: true,
+        prevLinks: true,
+
         dateFormat: 'YYYY-MM-DD',
         sidebarDepth:5,
-        sidebar:['/'],
+        // navbar: false,
+        displayAllHeaders: true ,// 默认值：false     
+
+        sidebar: {
+            '/': [
+                // '',        /* / */
+                // 'contact', /* /contact.html */
+                // 'about'    /* /about.html */
+                {
+                    title: "👏🏻 GridMemo是什么", //1
+                    collapsable: false,
+                    path:'/',
+                    sidebarDepth: 5,
+                   
+                  },
+                  {
+                    title: "🤔️GirdMemo能解决什么问题？", //2
+                    collapsable: false,
+                    sidebarDepth: 5,
+                    path:'/resolve',
+                  },
+                  {
+                    title: "🌲GridMemo如何使用？", //3
+                    collapsable: false,
+                    sidebarDepth: 5,
+                    path:'/use',
+                  },
+                  {
+                    title:'🏙️GridMemo为什么能促进记忆？', //4 
+                    sidebarDepth: 5,
+                    path:'/how',
+                  },
+                  {
+                    title:'🦶GridMemo为什么能提高思维能力？', //5
+                    sidebarDepth: 5,
+                    path:'/why',
+                  }
+              ]
+        },
+        // sidebar:['/'],
 
         /**
          * Ref: https://vuepress-theme-blog.ulivz.com/#footer
@@ -30,26 +78,30 @@ module.exports = {
             },
             ],
         },
-        directories: [
-            {
-                id: 'post',
-                dirname: '_posts',
-                path: '/',
-                itemPermalink: '/:year/:month/:day/:slug',
-            },
-            {
-                id: 'writing',
-                dirname: '_writings',
-                path: '/',
-                itemPermalink: '/:year/:month/:day/:slug',
-            },
-        ],
+        // directories: [
+        //     {
+        //         id: 'post',
+        //         dirname: '_posts',
+        //         path: '/',
+        //         itemPermalink: '/:year/:month/:day/:slug',
+        //     },
+        //     {
+        //         id: 'writing',
+        //         dirname: '_writings',
+        //         path: '/',
+        //         itemPermalink: '/:year/:month/:day/:slug',
+        //     },
+        // ],
         /**
          * Ref: https://vuepress-theme-blog.ulivz.com/#sitemap
          */
         sitemap: {
-            hostname: 'https://xxx.com/'
+            hostname: 'https://goofish-shop.github.io/GridMemo/'
         },
-        smoothScroll: true
+        smoothScroll: true,
+        'seo': { /* options */ },
+        
+
+
     },
 }

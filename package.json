@@ -10,6 +10,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.9"
+    "@vuepress/plugin-active-header-links": "^1.9.10",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-seo": "^0.2.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
