@@ -7,6 +7,8 @@ module.exports = {
     themeConfig: {
         repo: 'https://github.com/goofish-shop/vuepress',
         dateFormat: 'YYYY-MM-DD',
+        sidebarDepth:5,
+        sidebar:['/'],
 
         /**
          * Ref: https://vuepress-theme-blog.ulivz.com/#footer
