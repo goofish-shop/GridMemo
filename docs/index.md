@@ -1,3 +1,7 @@
+---
+sidebarDepth: 5
+---
+
 # GridMemo使用指南
 
 ##  1. GridMemo是什么？
