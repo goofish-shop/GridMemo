@@ -11,7 +11,7 @@ module.exports = {
         
     ],
     themeConfig: {
-        logo: '/GridMemo/logo.png',
+        logo: '/logo.png',
         nextLinks: true,
         prevLinks: true,
 
