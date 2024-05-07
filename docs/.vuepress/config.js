@@ -8,7 +8,12 @@ module.exports = {
             sidebarLinkSelector: '.sidebar-link',
             headerAnchorSelector: '.header-anchor'
         },
-        
+        'vuepress-plugin-smooth-scroll',
+        'vuepress-plugin-zooming',
+        '@vuepress/back-to-top',
+        '@vuepress/nprogress'
+
+
     ],
     themeConfig: {
         logo: '/logo.png',
