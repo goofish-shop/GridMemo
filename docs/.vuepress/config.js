@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'goofish-shop vuepress',
+    title: 'GridMemo',
     // theme: "@vuepress/theme-blog",
     base: "/GridMemo/",
     plugins: [
@@ -23,7 +23,7 @@ module.exports = {
                 link: 'https://github.com/ahKevinXy',
             },
             {
-                text: 'MIT Licensed | Copyright © 2023-Opencodes ',
+                text: 'MIT Licensed | Copyright © 2023-AhKevinXy ',
                 link: '',
             },
             ],
