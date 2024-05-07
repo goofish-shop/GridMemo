@@ -1,7 +1,7 @@
 module.exports = {
     title: 'goofish-shop vuepress',
     // theme: "@vuepress/theme-blog",
-    base: "/vuepress/",
+    base: "/GridMemo/",
     plugins: [
     ],
     themeConfig: {
