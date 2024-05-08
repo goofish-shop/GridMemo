@@ -1,13 +1,9 @@
 module.exports = {
     title: 'GridMemo',
     // theme: "@vuepress/theme-blog",
-    base: "/GridMemo/",
+    base: "/",
     plugins: [
-        '@vuepress/active-header-links',
-        {
-            sidebarLinkSelector: '.sidebar-link',
-            headerAnchorSelector: '.header-anchor'
-        },
+       
         'vuepress-plugin-smooth-scroll',
         'vuepress-plugin-zooming',
         '@vuepress/back-to-top',
