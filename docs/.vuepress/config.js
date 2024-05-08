@@ -21,7 +21,7 @@ module.exports = {
         // navbar: false,
         displayAllHeaders: true ,// 默认值：false     
 
-        sidebar: {
+        sidebar: { //
             '/': [
                 // '',        /* / */
                 // 'contact', /* /contact.html */
