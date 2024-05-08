@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'GridMemo',
+    title: 'GridMemo · 知识库',
     // theme: "@vuepress/theme-blog",
     base: "/",
     plugins: [
